@@ -6,7 +6,7 @@
 
 
 ## Overview
-A fully web-based application that lets you draw in the air using just your hand and webcam. No installations required - works directly in your browser!
+A fully web-based application that lets you draw in the air using just your hand and webcam.
 
 ## Features 
 
