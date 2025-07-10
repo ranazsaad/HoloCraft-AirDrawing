@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Air Drawing</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <canvas id="drawCanvas"></canvas>
+  <canvas id="landmarkCanvas"></canvas>
+  <video id="webcam" autoplay playsinline muted></video>
+  <div id="mode_now">Gesture: -</div>
+  <img id="pencil" src="pencil.png" alt="Pencil Cursor" />
+  <img id="eraser" src="rubber.png" alt="Eraser Cursor" style="display: none;" />
+  <div id="colorContainer">
+    <div id="colorBar"></div>
+    <div id="colorCursor"></div>
+  </div>
+  <div id="currentColor"></div>
+  <div id="colorLabel">Current Color</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
