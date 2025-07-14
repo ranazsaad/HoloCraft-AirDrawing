@@ -37,7 +37,7 @@ A fully web-based application that lets you draw in the air using just your hand
 ## Project Structure
 
 ### Landing Page (`index.html` + template assets)
-A static marketing page just for showcasing the project visually. It does not contain any drawing or gesture logic.
+A static page just for showcasing the project visually. It does not contain any drawing or gesture logic.
 
 ### Core Drawing App
 - `app.js` → All gesture recognition and drawing logic  
