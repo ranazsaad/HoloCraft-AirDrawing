@@ -55,10 +55,10 @@ A static page just for showcasing the project visually. It does not contain any 
   <img src="websiteInterface2.png" alt="HoloCraft Interface" width="80%">
 </div>
 
-5. Allow camera access
+4. Allow camera access
 
 > **Note:** Wait a few seconds for your hand landmarks to be detected.  
 > You'll see your hand landmarks appear on screen when it's ready.
 
-7. Start drawing in the air!
+5. Start drawing in the air!
 
