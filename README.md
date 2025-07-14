@@ -5,8 +5,11 @@
 </div>
 
 
+
 ## Overview
 A fully web-based application that lets you draw in the air using just your hand and webcam.
+
+
 
 ## Features 
 
@@ -21,11 +24,14 @@ A fully web-based application that lets you draw in the air using just your hand
 - Color selector with cursor feedback
 
 
+
 ## How It Works
 1. **Tracks** your hand using MediaPipe (21 landmarks)
 2. **Recognizes** your gestures in real-time
 3. **Smooths movements** (using 0.36 smoothing factor for fluid drawing)  
 4. **Translates** movements to digital art
+
+
 
 
 ## Project Structure
@@ -37,6 +43,8 @@ A static marketing page just for showcasing the project visually. It does not co
 - `app.js` → All gesture recognition and drawing logic  
 - `app.html` → The actual drawing interface with canvas and video stream.
 - `app.css` → Styling for the drawing environment.
+
+
 
   
 ## Setup
