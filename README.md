@@ -43,6 +43,10 @@ A static marketing page just for showcasing the project visually. It does not co
 1. Clone the repository
 2. Open `index.html` in Chrome/Firefox
 3. Click "Start Crafting"
-4. Allow camera access
-5. Start drawing in the air!
+   <div align="center">
+  <img src="websiteInterface2.png" alt="HoloCraft Interface" width="80%">
+</div>
+
+5. Allow camera access
+6. Start drawing in the air!
 
