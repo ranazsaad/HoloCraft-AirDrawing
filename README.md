@@ -21,15 +21,28 @@ A fully web-based application that lets you draw in the air using just your hand
 - Color selector with cursor feedback
 
 
-
 ## How It Works
-1. **Tracks** your hand using MediaPipe (21 keypoints)
+1. **Tracks** your hand using MediaPipe (21 landmarks)
 2. **Recognizes** your gestures in real-time
-3. **Translates** movements to digital art
+3. **Smooths movements** (using 0.36 smoothing factor for fluid drawing)  
+4. **Translates** movements to digital art
 
+
+## Project Structure
+
+### Landing Page (`index.html` + template assets)
+A static marketing page just for showcasing the project visually. It does not contain any drawing or gesture logic.
+
+### Core Drawing App
+- `app.js` → All gesture recognition and drawing logic  
+- `app.html` → The actual drawing interface with canvas and video stream.
+- `app.css` → Styling for the drawing environment.
+
+  
 ## Setup
-1. Open `index.html` in Chrome/Firefox
-2. Click "Start Crafting"
-3. Allow camera access
-4. Start drawing
+1. Clone the repository
+2. Open `index.html` in Chrome/Firefox
+3. Click "Start Crafting"
+4. Allow camera access
+5. Start drawing in the air!
 
